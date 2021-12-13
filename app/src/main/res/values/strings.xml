@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">HouseStock</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">House Stock</string>
+    <string name="second_fragment_label">収支確認</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="stock_edit_text">編集</string>
+    <string name="check_money">収支</string>
+    <string name="incometext">収入:</string>
+    <string name="recipefragname">今日のご飯</string>
+    <string name="omuraisu">オムライス</string>
+    <string name="kareraisu">カレーライス</string>
+    <string name="recipeselect">今日はコレで決まり</string>
+    <string name="keisantext">計算</string>
+    <string name="recipetitle">レシピ</string>
+    <string name="husokutitle">足りない食材</string>
+    <string name="tohome">ホームに戻る</string>
+    <string name="omuraisumat">
+        材料\n
+        ・白米200g\n
+        ・鶏モモ肉50g\n
+        ・玉ねぎ1/4個\n
+        ・ケチャップ\n
+        ・卵2個\n
+    </string>
+    <string name="omuraisurecipe">作り方\n1.玉ねぎをみじん切り、鶏モモ肉を細かく切ります。\n
+        2.中火で1を炒めます。\n
+        3.白米を入れ、ケチャップを加えて全体になじんだら火から下ろします。\n
+        4.フライパンに油をひき、といた卵を入れて手早く混ぜ、半熟になったら盛り付けます。\n
+        5.ケチャップをかけて完成です。
+    </string>
+    <string name="kareraisumat">
+        材料\n
+        ・白米200g\n
+        ・豚肉50g\n
+        ・人参1/4個\n
+        ・玉ねぎ1/4個\n
+        ・カレールー20g\n
+    </string>
+    <string name="kareraisurecipe">
+        作り方\n
+        1.野菜の皮をむき、肉と野菜を一口大に切ります。\n
+        2.フライパンにサラダ油を入れたら中火で肉を炒めます。\n
+        3.野菜を加え、玉ねぎが透き通るくらいまで炒めます。\n
+        4.水を加えて、15～20分煮込みます。\n
+        5.カレールーを加えて、溶かしながら10分煮込んで完成です。
+    </string>
+    <string name="nikuzyagamat">
+        材料\n
+        ・豚肉100g\n
+        ・じゃがいも1.5個\n
+        ・人参1/2個\n
+        ・玉ねぎ1/2個\n
+        ・しょうゆ・・大さじ2\n
+        ・酒・・大さじ2\n
+        ・砂糖・・大さじ2\n
+        ・みりん・・大さじ2\n
+        ・顆粒だし・・大さじ1/2\n
+    </string>
+    <string name="nikuzygarecipe">
+        作り方\n
+        1.水、しょうゆ、酒、砂糖、みりん、顆粒だしで合わせ調味料を作ります。
+        2.じゃがいもと人参を乱切りにします\n
+        3.玉ねぎはくし切りで、お肉を一口大に切ります\n
+        4.お肉から炒め、野菜も加えて炒め合わせ全体に油がまわったら砂糖とお水を注ぎ入れます\n
+        5.合わせ調味料も加えて落としぶたをして、弱火で20～30分煮込みます\n
+        6.じゃがいもとにんじんに箸がスッと通れば完成です\n
+    </string>
+    <string name="mentaimat">
+        材料\n
+        明太ソース\n
+        |・明太子40g\n
+        |・マヨネーズ・・大さじ1\n
+        |・めんつゆ・・大さじ1\n
+        |・バター10g\n\n
+        ・スパゲッティ100g\n
+        ・刻み海苔少々\n
+    </string>
+    <string name="mentairecipe">
+        作り方\n
+        1.明太マヨソースの材料をボウルに入れ、混ぜ合わせます。\n
+        2.フライパンにお湯と塩を入れ沸騰させ、スパゲティを入れ、パッケージの表記通りゆでます。\n
+        3.ゆであがったらお湯を切り、1に入れしっかりと混ぜ合わせます。\n
+        4.皿に盛りつけ、刻み海苔をのせて完成です。\n
+    </string>
+    <string name="hoikoromat">
+        材料\n
+        ・豚肉75g\n
+        ・キャベツ1/8個\n
+        ・長ネギ1/4個\n
+        ・ピーマン1個\n
+        合わせ調味料\n
+        |・しょうゆ・・大さじ1/2\n
+        |・甜麺醤・・大さじ1/2\n
+        |・酒・・大さじ1/2\n
+        |・砂糖・・小さじ1\n
+        |・片栗粉・・小さじ1\n
+    </string>
+    <string name="hoikororecipe">
+        作り方\n
+        1.豚肉、野菜を食べやすい大きさに切る。\n
+        2.豚肉を炒め、色が変わったら長ネギ、キャベツ、ピーマンの順に入れ、さっと炒める。\n
+        3.合わせ調味料を入れ、絡んだら完成です。\n
+    </string>
+    <string name="nikuzyaga">肉じゃが</string>
+    <string name="mentai">明太子パスタ</string>
+    <string name="hoikoro">回鍋肉</string>
+    <string name="complete">作った！</string>
+    <string name="all">全て</string>
+
+
+    <string-array name="list">
+        <item>食品</item>
+        <item>飲み物</item>
+        <item>日用品</item>
+    </string-array>
+
+    <string-array name="list2">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+
+    <string-array name="list3">
+        <item>なし</item>
+        <item>青</item>
+        <item>赤</item>
+        <item>緑</item>
+    </string-array>
+</resources>

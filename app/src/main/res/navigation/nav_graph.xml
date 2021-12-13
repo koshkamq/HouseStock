@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="SK2A22_2200525.housestock2.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_to_stockEditFragment"
+            app:destination="@id/stockEditFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_recipeFragment"
+            app:destination="@id/recipeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="SK2A22_2200525.housestock2.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_to_stockEditFragment"
+            app:destination="@id/stockEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stockEditFragment"
+        android:name="SK2A22_2200525.housestock2.StockEditFragment"
+        android:label="@string/stock_edit_text"
+        tools:layout="@layout/fragment_stock_edit" >
+        <argument
+            android:name="stockId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipeFragment"
+        android:name="SK2A22_2200525.housestock2.recipeFragment"
+        android:label="@string/recipefragname"
+        tools:layout="@layout/fragment_recipe" >
+        <action
+            android:id="@+id/action_recipeFragment_to_omuraisuFragment"
+            app:destination="@id/omuraisuFragment" />
+        <action
+            android:id="@+id/action_recipeFragment_to_kareraisuFragment"
+            app:destination="@id/kareraisuFragment" />
+        <action
+            android:id="@+id/action_recipeFragment_to_nikuzyagaFragment"
+            app:destination="@id/nikuzyagaFragment" />
+        <action
+            android:id="@+id/action_recipeFragment_to_mentaiFragment"
+            app:destination="@id/mentaiFragment" />
+        <action
+            android:id="@+id/action_recipeFragment_to_hoikoroFragment"
+            app:destination="@id/hoikoroFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/omuraisuFragment"
+        android:name="SK2A22_2200525.housestock2.omuraisuFragment"
+        android:label="fragment_omuraisu"
+        tools:layout="@layout/fragment_omuraisu" >
+        <action
+            android:id="@+id/action_omuraisuFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kareraisuFragment"
+        android:name="SK2A22_2200525.housestock2.kareraisuFragment"
+        android:label="fragment_kareraisu"
+        tools:layout="@layout/fragment_kareraisu" >
+        <action
+            android:id="@+id/action_kareraisuFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nikuzyagaFragment"
+        android:name="SK2A22_2200525.housestock2.nikuzyagaFragment"
+        android:label="fragment_nikuzyaga"
+        tools:layout="@layout/fragment_nikuzyaga" >
+        <action
+            android:id="@+id/action_nikuzyagaFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentaiFragment"
+        android:name="SK2A22_2200525.housestock2.mentaiFragment"
+        android:label="fragment_mentai"
+        tools:layout="@layout/fragment_mentai" >
+        <action
+            android:id="@+id/action_mentaiFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hoikoroFragment"
+        android:name="SK2A22_2200525.housestock2.hoikoroFragment"
+        android:label="fragment_hoikoro"
+        tools:layout="@layout/fragment_hoikoro" >
+        <action
+            android:id="@+id/action_hoikoroFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>

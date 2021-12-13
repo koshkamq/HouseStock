@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraitLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recipeFragment">
+
+    <ImageView
+        android:id="@+id/omuraisuview"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/omuraisu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/omuraisutext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="@string/omuraisu"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/omuraisuview"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/omuraisucheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/kareraisuview"
+        android:layout_width="98dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/kareraisu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/omuraisuview" />
+
+    <TextView
+        android:id="@+id/kareraisutext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="@string/kareraisu"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/kareraisuview"
+        app:layout_constraintTop_toBottomOf="@+id/omuraisutext" />
+
+    <CheckBox
+        android:id="@+id/kareraisucheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/omuraisucheckBox" />
+
+    <Button
+        android:id="@+id/koredekimaributton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/recipeselect"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/recipetitle"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/nikuzyagaview"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/nikuzyaga"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kareraisuview" />
+
+    <TextView
+        android:id="@+id/nikuzyagatext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/nikuzyaga"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/nikuzyagaview"
+        app:layout_constraintTop_toBottomOf="@+id/kareraisutext" />
+
+    <CheckBox
+        android:id="@+id/nikuzyagacheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kareraisucheckBox" />
+
+    <ImageView
+        android:id="@+id/mentaiview"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/mentai"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nikuzyagaview" />
+
+    <TextView
+        android:id="@+id/mentaitext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="@string/mentai"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/mentaiview"
+        app:layout_constraintTop_toBottomOf="@+id/nikuzyagatext" />
+
+    <CheckBox
+        android:id="@+id/mentaicheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nikuzyagacheckBox" />
+
+    <ImageView
+        android:id="@+id/hoikoroview"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/hoikoro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mentaiview" />
+
+    <TextView
+        android:id="@+id/hoikorotext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/hoikoro"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/hoikoroview"
+        app:layout_constraintTop_toBottomOf="@+id/mentaitext" />
+
+    <CheckBox
+        android:id="@+id/hoikorocheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mentaicheckBox" />
+</androidx.constraintlayout.widget.ConstraintLayout>
